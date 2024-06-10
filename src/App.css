@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.searchbutton {
+    display: block;
+    margin: 15px auto;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.world {
+    width: 100%;
+    height: 100%;
+}
+
+.globe {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.country {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.countryInfo {
+    flex-direction: row;
+    width: 275px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.flag {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.searchbox {
+    width: 50%;
+    margin: 25px auto 25px;
+}
+
+.searchbox input, .globesearch{
+    width: 75%;
+    border: 2px solid white;
+    border-right: 0;
+    font-size: 12px;
+    padding: 12px;
+    background: transparent;
+    color: black;
+}
+
+.globesearch {
+    width: 25%;
+    background: yellowgreen;
+    color: black;
+    float: right;
+    border-left: 0;
+}
+
+.searchcountry {
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.namecountry {
+    display: flex;
+    gap: 20px;
+}
+
+.searchcountry p{
+    padding: 5px;
+
+}
