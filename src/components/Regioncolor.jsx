@@ -1,4 +1,4 @@
-function Regioncolor(country) {
+function Regioncolor() {
 
 
 }
